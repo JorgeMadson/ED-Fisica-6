@@ -3,6 +3,11 @@
   margin-top: 5pt;
 }
 
+@font-face {
+  font-family: AvenirLTStd45Book;
+  src: url("AvenirLTStd45Book.otf");
+}
+
 html,
 body {
   display: block;
@@ -13,6 +18,7 @@ body {
   margin-top: 0;
   padding-left: 0;
   padding-right: 0;
+  font-family: "AvenirLTStd45Book";
 }
 
 @media print {
@@ -22,11 +28,18 @@ body {
   }
 }
 
-.titleColor {
+.title--blue {
   color: #4a91c5;
 }
 
-.pageTitle {
+.title--brown {
+  border-top: #da5138 1px solid;
+  background: rgb(107, 166, 205);
+  background: linear-gradient(
+    180deg,
+    rgba(107, 166, 205, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
   color: #7e432d;
 }
 
@@ -35,8 +48,10 @@ body {
   border-bottom: 1px solid black;
 }
 
-.blue-background {
-  background-color: #acd5e8;
+.background--blue {
+  border-radius: 5px;
+  background-color: #dee3dc;
+  /* background-color: #acd5e8; */
 }
 
 .center-center {
