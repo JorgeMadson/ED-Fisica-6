@@ -1,109 +1,116 @@
 @page {
-    margin-bottom: 5pt;
-    margin-top: 5pt
+  margin-bottom: 5pt;
+  margin-top: 5pt;
 }
 
 html,
 body {
-    display: block;
-    font-size: 1em;
-    margin-bottom: 0;
-    margin-left: 5pt;
-    margin-right: 5pt;
-    margin-top: 0;
-    padding-left: 0;
-    padding-right: 0
+  display: block;
+  font-size: 1em;
+  margin-bottom: 0;
+  margin-left: 5pt;
+  margin-right: 5pt;
+  margin-top: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 @media print {
-    .page {
-        height: auto;
-        border-bottom: 0;
-    }
+  .page {
+    height: auto;
+    border-bottom: 0;
+  }
+}
+
+.titleColor {
+  color: #4a91c5;
+}
+
+.pageTitle {
+  color: #7e432d;
 }
 
 .page {
-    min-height: 100vh;
-    border-bottom: 1px solid black;
+  min-height: 100vh;
+  border-bottom: 1px solid black;
 }
 
 .blue-background {
-    background-color: #acd5e8;
+  background-color: #acd5e8;
 }
 
 .center-center {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .center {
-    text-align: center;
+  text-align: center;
 }
 
 .right {
-    text-align: right;
+  text-align: right;
 }
 
 .box {
-    margin: 0 10rem;
-    padding: 1rem;
-    border: 1px solid black;
+  margin: 0 10rem;
+  padding: 1rem;
+  border: 1px solid black;
 }
 
 .justify {
-    text-align: justify;
-    text-justify: inter-word;
-    margin: 10rem;
+  text-align: justify;
+  text-justify: inter-word;
+  margin: 10rem;
 }
 
 .calibre1 {
-    display: block;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 1em
+  display: block;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
 }
 
 .calibre2 {
-    height: auto;
-    width: auto
+  height: auto;
+  width: auto;
 }
 
 .calibre3 {
-    font-weight: bold
+  font-weight: bold;
 }
 
 .calibre4 {
-    display: block;
-    font-size: 1.66667em;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 0.83em;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0.83em;
-    page-break-before: always
+  display: block;
+  font-size: 1.66667em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 0.83em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0.83em;
+  page-break-before: always;
 }
 
 .calibre5 {
-    font-weight: bold;
-    line-height: 1.2
+  font-weight: bold;
+  line-height: 1.2;
 }
 
 .calibre6 {
-    font-style: italic
+  font-style: italic;
 }
 
 .sigilnotintoc {
-    display: block;
-    font-size: 1.29167em;
-    font-weight: bold;
-    line-height: 1.2;
-    margin-bottom: 1em;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 1em
+  display: block;
+  font-size: 1.29167em;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 1em;
 }
