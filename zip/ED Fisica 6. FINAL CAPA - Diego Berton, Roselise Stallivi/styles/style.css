@@ -33,6 +33,10 @@ body {
 }
 
 .title--brown {
+  color: #7e432d;
+}
+
+.title--brown--gradient {
   border-top: #da5138 1px solid;
   background: rgb(107, 166, 205);
   background: linear-gradient(
@@ -48,10 +52,13 @@ body {
   border-bottom: 1px solid black;
 }
 
+.cover-background--blue {
+  background-color: #acd5e8;
+}
+
 .background--blue {
   border-radius: 5px;
   background-color: #dee3dc;
-  /* background-color: #acd5e8; */
 }
 
 .center-center {
