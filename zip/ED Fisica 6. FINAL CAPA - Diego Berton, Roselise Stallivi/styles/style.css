@@ -120,6 +120,11 @@ body {
   width: auto;
 }
 
+.image-responsive {
+  height: auto;
+  width: 100%;
+}
+
 .calibre3 {
   font-weight: bold;
 }
