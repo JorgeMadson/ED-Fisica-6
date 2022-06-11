@@ -82,10 +82,29 @@ body {
   border: 1px solid black;
 }
 
+.box--yellow {
+  padding: 1rem;
+  border: 1px solid yellow;
+}
+
+.two-blocks-right {
+  display: grid;
+  grid-template-columns: 1fr minmax(250px, 25%);
+}
+
+.two-blocks-left {
+  display: grid;
+  grid-template-columns: minmax(250px, 25%) 1fr;
+}
+
 .justify {
   text-align: justify;
   text-justify: inter-word;
   margin: 10rem;
+}
+
+.padding1 {
+  padding: 1rem;
 }
 
 .calibre1 {
