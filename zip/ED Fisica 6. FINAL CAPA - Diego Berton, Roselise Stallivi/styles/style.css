@@ -65,6 +65,9 @@ body {
   background-color: #FEF7D4;
 }
 
+.background--salmon {
+  background-color: #F8D6C7;
+}
 .center-center {
   display: flex;
   flex-direction: column;
