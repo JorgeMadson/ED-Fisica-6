@@ -61,6 +61,10 @@ body {
   background-color: #dee3dc;
 }
 
+.background--yellow {
+  background-color: #FEF7D4;
+}
+
 .center-center {
   display: flex;
   flex-direction: column;
