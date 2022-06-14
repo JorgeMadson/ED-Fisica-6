@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ncx PUBLIC "-//NISO//DTD ncx 2005-1//EN" "http://www.daisy.org/z3986/2005/ncx-2005-1.dtd">
+
+<ncx version="2005-1" xml:lang="en" xmlns="http://www.daisy.org/z3986/2005/ncx/">
+
+    <head>
+        <!-- The following four metadata items are required for all NCX documents,
+including those that conform to the relaxed constraints of OPS 2.0 -->
+
+        <meta name="dtb:uid" content="9ab7bc9e-c648-408c-83d2-b5b80aeca383" /> <!-- same as in .opf -->
+        <meta name="dtb:depth" content="1" /> <!-- 1 or higher -->
+        <meta name="dtb:totalPageCount" content="0" /> <!-- must be 0 -->
+        <meta name="dtb:maxPageNumber" content="0" /> <!-- must be 0 -->
+    </head>
+
+    <docTitle>
+        <text>Manual do professor para a Educação Física - 6. ano</text>
+    </docTitle>
+
+    <docAuthor>
+        <text>Diego Berton, Roselise Stallivieri</text>
+    </docAuthor>
+
+    <navMap>
+        <navPoint class="chapter" id="chapter1" playOrder="1">
+            <navLabel>
+                <text>Parte 1 – Orientações gerais</text>
+            </navLabel>
+            <content src="index.html" />
+        </navPoint>
+    </navMap>
+
+</ncx>

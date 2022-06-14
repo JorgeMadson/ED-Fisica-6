@@ -3,15 +3,15 @@
     <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
         <dc:identifier opf:scheme="calibre" id="calibre_id">9ab7bc9e-c648-408c-83d2-b5b80aeca383</dc:identifier>
         <dc:identifier opf:scheme="uuid" id="uuid_id">9ab7bc9e-c648-408c-83d2-b5b80aeca383</dc:identifier>
-        <dc:title>ED Fisica 6. FINAL CAPA</dc:title>
+        <dc:title>Manual do professor para a Educação Física - 6. ano</dc:title>
         <dc:creator opf:file-as="Diego Berton, Roselise Stallivieri" opf:role="aut">Diego Berton, Roselise Stallivieri</dc:creator>
         <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (5.43.0) [https://calibre-ebook.com]</dc:contributor>
         <dc:date>2022-05-17T20:49:13+00:00</dc:date>
         <dc:publisher>Terra Sul</dc:publisher>
         <dc:language>pt</dc:language>
-        <meta name="calibre:author_link_map" content="{}"/>
+        <meta name="calibre:author_link_map" content="{}" />
     </metadata>
     <guide>
-        <reference type="cover" title="Capa" href="cover.jpg"/>
+        <reference type="cover" title="Capa" href="cover.jpg" />
     </guide>
 </package>
