@@ -5,8 +5,7 @@
 
     <head>
         <!-- The following four metadata items are required for all NCX documents,
-including those that conform to the relaxed constraints of OPS 2.0 -->
-
+        including those that conform to the relaxed constraints of OPS 2.0 -->
         <meta name="dtb:uid" content="9ab7bc9e-c648-408c-83d2-b5b80aeca383" /> <!-- same as in .opf -->
         <meta name="dtb:depth" content="1" /> <!-- 1 or higher -->
         <meta name="dtb:totalPageCount" content="0" /> <!-- must be 0 -->
@@ -27,6 +26,18 @@ including those that conform to the relaxed constraints of OPS 2.0 -->
                 <text>Parte 1 – Orientações gerais</text>
             </navLabel>
             <content src="index.html" />
+        </navPoint>
+        <navPoint class="chapter" id="chapter2" playOrder="2">
+            <navLabel>
+                <text>Parte 2 – Orientações Específicas e propostas de atividades – 6.º ano - Unidade temática – Brincadeiras e jogos</text>
+            </navLabel>
+            <content src="part2-0-brincadeiras.html" />
+        </navPoint>
+        <navPoint class="chapter" id="chapter3" playOrder="3">
+            <navLabel>
+                <text>Unidade temática – Esportes</text>
+            </navLabel>
+            <content src="part2-1-esportes.html" />
         </navPoint>
     </navMap>
 
