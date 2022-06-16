@@ -52,6 +52,10 @@ body {
   border-bottom: 1px solid black;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 .cover-background--blue {
   background-color: #acd5e8;
 }
@@ -62,11 +66,11 @@ body {
 }
 
 .background--yellow {
-  background-color: #FEF7D4;
+  background-color: #fef7d4;
 }
 
 .background--salmon {
-  background-color: #F8D6C7;
+  background-color: #f8d6c7;
 }
 .center-center {
   display: flex;
