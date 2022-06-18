@@ -39,11 +39,9 @@ body {
 .title--brown--gradient {
   border-top: #da5138 1px solid;
   background: rgb(107, 166, 205);
-  background: linear-gradient(
-    180deg,
-    rgba(107, 166, 205, 1) 0%,
-    rgba(255, 255, 255, 1) 100%
-  );
+  background: linear-gradient(180deg,
+      rgba(107, 166, 205, 1) 0%,
+      rgba(255, 255, 255, 1) 100%);
   color: #7e432d;
 }
 
@@ -72,6 +70,7 @@ body {
 .background--salmon {
   background-color: #f8d6c7;
 }
+
 .center-center {
   display: flex;
   flex-direction: column;
