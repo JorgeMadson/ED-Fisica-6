@@ -8,6 +8,6 @@ function mudarVisibilidade(bloco, instrucao) {
   }
 }
 
-function infografico(alvo, texto) {
-  document.getElementById(alvo).textContent = texto;
+function infografico(instrucao, texto) {
+  document.getElementById(instrucao).textContent = texto;
 }
