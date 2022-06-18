@@ -7,3 +7,7 @@ function mudarVisibilidade(bloco, instrucao) {
     instrucao ? (instrucao.style.visibility = "visible") : "";
   }
 }
+
+function infografico(alvo, texto) {
+  document.getElementById(alvo).textContent = texto;
+}
