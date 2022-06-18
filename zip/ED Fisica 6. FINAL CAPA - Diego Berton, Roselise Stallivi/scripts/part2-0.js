@@ -12,4 +12,10 @@ if (typeof mudarVisibilidade !== "undefined") {
       document.getElementById("bloco-sugestao-20"),
       document.getElementById("instrucao-20")
     );
+  document.getElementById("sugestao-21").onclick = () =>
+    mudarVisibilidade(
+      document.getElementById("bloco-sugestao-21"),
+      document.getElementById("instrucao-21")
+    );
+
 }
