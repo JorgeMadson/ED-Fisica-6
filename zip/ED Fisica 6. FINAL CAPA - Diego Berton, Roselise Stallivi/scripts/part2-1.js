@@ -13,4 +13,11 @@ if (typeof mudarVisibilidade !== "undefined") {
     mudarVisibilidade(document.getElementById("instrucaoQuadra5"));
   document.getElementById("quadra6").onclick = () =>
     mudarVisibilidade(document.getElementById("instrucaoQuadra6"));
+
+
+  document.getElementById("sugestao-43").onclick = () =>
+    mudarVisibilidade(
+      document.getElementById("bloco-sugestao-43"),
+      document.getElementById("instrucao-43")
+    );
 }
