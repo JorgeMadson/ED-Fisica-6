@@ -11,6 +11,32 @@
         <dc:language>pt</dc:language>
         <meta name="calibre:author_link_map" content="{}" />
     </metadata>
+
+    <manifest>
+        <item id="chapter1" href="index.html" media-type="application/xhtml+xml"/>
+        <item id="chapter2" href="part2-0-brincadeiras.html" media-type="application/xhtml+xml"/>
+        <item id="chapter3" href="part2-1-esportes.html" media-type="application/xhtml+xml"/>
+        <item id="chapter4" href="part2-2-ginasticas.html" media-type="application/xhtml+xml"/>
+        <item id="chapter5" href="part2-3-dancas.html" media-type="application/xhtml+xml"/>
+        <item id="chapter6" href="part2-4-lutas.html" media-type="application/xhtml+xml"/>
+        <item id="chapter7" href="part2-5-aventuras.html" media-type="application/xhtml+xml"/>
+        <item id="chapter8" href="part2-6-avaliacao.html" media-type="application/xhtml+xml"/>
+        <item id="stylesheet" href="styles/style.css" media-type="text/css"/>
+        <item id="myfont" href="fonts/AvenirLTStd45Book.otf" media-type="application/x-font-opentype"/>
+        <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    </manifest>
+
+    <spine toc="ncx">
+        <itemref idref="chapter1" />
+        <itemref idref="chapter2" />
+        <itemref idref="chapter3" />
+        <itemref idref="chapter4" />
+        <itemref idref="chapter5" />
+        <itemref idref="chapter6" />
+        <itemref idref="chapter7" />
+        <itemref idref="chapter8" />
+    </spine>
+
     <guide>
         <reference type="cover" title="Capa" href="cover.jpg" />
     </guide>

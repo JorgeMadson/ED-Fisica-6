@@ -38,7 +38,35 @@
                 <text>Unidade temática – Esportes</text>
             </navLabel>
             <content src="part2-1-esportes.html" />
+        <navPoint class="chapter" id="chapter4" playOrder="4">
+            <navLabel>
+                <text>Unidade temática – Ginásticas</text>
+            </navLabel>
+            <content src="part2-2-ginasticas.html" />
+        </navPoint>
+        <navPoint class="chapter" id="chapter5" playOrder="5">
+            <navLabel>
+                <text>Unidade temática – Danças</text>
+            </navLabel>
+            <content src="part2-3-dancas.html" />
+        </navPoint>
+        <navPoint class="chapter" id="chapter6" playOrder="6">
+            <navLabel>
+                <text>Unidade temática – Lutas</text>
+            </navLabel>
+            <content src="part2-4-lutas.html" />
+        </navPoint>
+        <navPoint class="chapter" id="chapter7" playOrder="7">
+            <navLabel>
+                <text>Unidade temática – Práticas corporais de aventura</text>
+            </navLabel>
+            <content src="part2-5-aventuras.html" />
+        </navPoint>
+        <navPoint class="chapter" id="chapter8" playOrder="8">
+            <navLabel>
+                <text>Fichas de avaliação</text>
+            </navLabel>
+            <content src="part2-6-avaliacao.html" />
         </navPoint>
     </navMap>
-
 </ncx>
