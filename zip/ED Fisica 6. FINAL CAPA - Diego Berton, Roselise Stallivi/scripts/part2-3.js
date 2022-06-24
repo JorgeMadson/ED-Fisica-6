@@ -17,4 +17,25 @@ if (typeof mudarVisibilidade !== "undefined") {
       document.getElementById("bloco-sugestao-62"),
       document.getElementById("instrucao-62")
     );
+
+  document.getElementById("sugestao-65-1").onclick = () =>
+    mudarVisibilidade(
+      document.getElementById("bloco-sugestao-65-1"),
+      document.getElementById("instrucao-65-1")
+    );
+  document.getElementById("sugestao-65-2").onclick = () =>
+    mudarVisibilidade(
+      document.getElementById("bloco-sugestao-65-2"),
+      document.getElementById("instrucao-65-2")
+    );
+  document.getElementById("sugestao-65-3").onclick = () =>
+    mudarVisibilidade(
+      document.getElementById("bloco-sugestao-65-3"),
+      document.getElementById("instrucao-65-3")
+    );
+  document.getElementById("sugestao-65-4").onclick = () =>
+    mudarVisibilidade(
+      document.getElementById("bloco-sugestao-65-4"),
+      document.getElementById("instrucao-65-4")
+    );
 }
