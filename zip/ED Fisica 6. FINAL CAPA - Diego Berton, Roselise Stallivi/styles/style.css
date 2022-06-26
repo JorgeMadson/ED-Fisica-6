@@ -87,13 +87,13 @@ body {
 }
 
 .box {
-  margin: 0 10rem;
-  padding: 1rem;
+  margin: 0 160px;
+  padding: 16px;
   border: 1px solid black;
 }
 
 .box--yellow {
-  padding: 1rem;
+  padding: 16px;
   border: 1px solid yellow;
 }
 
@@ -114,7 +114,7 @@ body {
 }
 
 .padding1 {
-  padding: 1rem;
+  padding: 16px;
 }
 
 .calibre1 {
